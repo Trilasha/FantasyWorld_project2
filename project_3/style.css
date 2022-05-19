@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+section {
+    margin: -68px 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 344px;
+    justify-content: center;
+}
+
+.navigation {
+    font-size: 20px;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 3px 18px;
+    margin-left: -9px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-family: 'Square Peg', cursive;
+    font-size: 27px;
+    text-align: center;
+}
+
+header::before {
+    background: url('https://source.unsplash.com/random') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
